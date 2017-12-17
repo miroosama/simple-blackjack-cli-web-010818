@@ -63,7 +63,7 @@ def runner
   welcome
   initial_round
   your_move = hit?(display_card_total)
-  until your_move == 22
+  until your_move == 21
     puts end_game
   end
 
