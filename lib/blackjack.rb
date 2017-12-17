@@ -63,7 +63,7 @@ def runner
   welcome
   initial_round
   counter = hit?(num)
-  display_card_total(7)
+  display_card_total(card)
   until counter > 21
     puts end_game
   end
