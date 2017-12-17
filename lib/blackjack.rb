@@ -63,6 +63,7 @@ def runner
   welcome
   initial_round
   hit?
+  display_card_total
   until hit?  == 21
     puts end_game
   end
