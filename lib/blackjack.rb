@@ -62,7 +62,7 @@ def runner
   # code runner here
   welcome
   initial_round
-  hit?
+  hit?()
   display_card_total
   until num  == 21
     puts end_game
