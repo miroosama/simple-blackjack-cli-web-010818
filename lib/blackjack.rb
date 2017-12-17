@@ -63,6 +63,7 @@ def runner
   welcome
   initial_round
   movee = hit?(10)
+  display_card_total(30)
   until movee > 21
    return end_game(30)
   end
