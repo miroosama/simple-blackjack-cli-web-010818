@@ -37,14 +37,21 @@ end
 def hit?(num)
   # code hit? here
  prompt_user
- get_user_input
- num
-
+ answer = get_user_input
+if answer == "h"
+ num += deal_card
+elsif answer == "s"
+  num
+else
+  invalid_command
+  prompt_user
+end
 
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
@@ -53,4 +60,12 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  movee = hit?(10)
+  display_card_total(30)
+  until movee > 21
+   return end_game(30)
+  end
+
 end
