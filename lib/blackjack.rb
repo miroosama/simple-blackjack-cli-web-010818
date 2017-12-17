@@ -64,7 +64,7 @@ def runner
   initial_round
   counter = hit?(10)
   display_card_total(30)
-  until counter > 21
+  until counter == 21
    puts end_game
   end
 
