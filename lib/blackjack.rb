@@ -65,7 +65,7 @@ def runner
   display_card_total(20)
   movee = hit?(10)
   until movee > 21
-   puts end_game(30)
+   return end_game(30)
   end
 
 end
