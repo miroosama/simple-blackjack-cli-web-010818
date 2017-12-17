@@ -37,9 +37,10 @@ end
 def hit?(num)
   # code hit? here
  prompt_user
-if get_user_input == "h"
+ answer = get_user_input
+if answer == "h"
  num += deal_card
-elsif get_user_input == "s"
+elsif answer == "s"
   num
 end
 
