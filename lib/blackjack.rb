@@ -65,7 +65,7 @@ def runner
   display_card_total(20)
   hit?(10)
   until hit?(10) > 21
-   puts end_game
+   puts end_game(30)
   end
 
 end
