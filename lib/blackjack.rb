@@ -44,6 +44,7 @@ elsif answer == "s"
   num
 else
   invalid_command
+  prompt_user
 end
 
 end
