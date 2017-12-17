@@ -38,8 +38,8 @@ def hit?(num)
   # code hit? here
  prompt_user
  get_user_input
- num
 
+  num
 
 end
 
@@ -53,4 +53,5 @@ end
 
 def runner
   # code runner here
+
 end
