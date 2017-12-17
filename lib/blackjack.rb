@@ -58,7 +58,6 @@ def runner
   # code runner here
   welcome
   initial_round
-  display_card_total
   hit?
   until display_card_total > 21
     puts end_game
