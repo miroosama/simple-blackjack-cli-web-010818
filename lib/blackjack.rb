@@ -67,5 +67,5 @@ def runner
   until counter > 21
     puts end_game(30)
   end
-
+welcome
 end
