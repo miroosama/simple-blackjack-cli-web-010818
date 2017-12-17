@@ -62,9 +62,8 @@ def runner
   # code runner here
   welcome
   initial_round
-  move = hit?()
-  display_card_total
-  until move  == 22
+  until hit? == 22
+    puts display_card_total
     puts end_game
   end
 
