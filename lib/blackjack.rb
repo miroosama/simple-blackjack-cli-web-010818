@@ -63,7 +63,7 @@ def runner
   welcome
   initial_round
 
-  until hit?  == 21
+  until hit?  > 21
     puts end_game
   end
 
